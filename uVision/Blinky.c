@@ -29,7 +29,6 @@ void sendstr (char *p) {                   /* Write string */
   }
 }
 
-
 void delay (void) {                        /* Delay function */
   unsigned int cnt;
   unsigned int val;
@@ -61,32 +60,24 @@ int main (void) {
   ADCR    = 0x00200404;                    /* Setup A/D: 10-bit AIN2 @ 3MHz */
 	
 	init_serial();                          /* Initialize Serial Interface    */
-	sendstr("Hello\n");
 	
   while (1) {   		/* Loop forever */
 		c = getkey();
-		IOCLR = 0x00FF0000;
-		switch(c) {
+		switch (c) {
+			case '0' :
+				IOCLR = 0x00800000;
+				break;
 			case '1' :
-				IOSET = 0x00010000;
-				break;
-			case '2' :
-				IOSET = 0x00080000;
-				break;
-			case '3' :
-				IOSET = 0x00100000;
-				break;
-			case '4' :
-				IOSET = 0x00200000;
-				break;
-			case '5' :
-				IOSET = 0x00400000;
-				break;
-			case '6' :
 				IOSET = 0x00800000;
 				break;
-			default :
-				IOSET = 0x00FF0000;
+			case '2' :
+				IOSET = 0x00010000;
+				break;
+			case '3' :
+				IOCLR = 0x00010000;
+				break;
+			default:
+				IOCLR = 0x00FF0000;
 				break;
 		}
   }
