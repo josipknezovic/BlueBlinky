@@ -9,42 +9,59 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mate.blueblinky.MainActivity">
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentBottom="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentEnd="false"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="260dp" />
-
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="280dp"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Paired devices"
-        android:id="@+id/textView"
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:text="@string/open_button"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button"
+        android:background="@drawable/openbutton"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
+        android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:text="Scan"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/scan_button"
+        android:textColor="#000000"
+        style="@android:style/Widget.Material.ActionButton"
+        android:id="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/checkmark"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="62dp" />
+
+    <Button
+        style="@android:style/Widget.Material.ActionButton"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/disc_button"
+        android:textColor="#000000"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
