@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BlueBlinky</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="open_button">OPEN</string>
+    <string name="scan_button">SCAN</string>
+    <string name="disc_button">DISCONNECT</string>
 </resources>
