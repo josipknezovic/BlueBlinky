@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=5V Pin=X3-2
+Removed Pin From Net: NetName=GND Pin=X3-10
+Change Component Designator: OldDesignator=X5 NewDesignator=X3

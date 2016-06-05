@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=A2 Old DesignItemId=LM3940IT-3.3 New DesignItemId=LM3940IS-3.3
+Change Component Footprint: Designator=A2 Old Footprint=T03B New Footprint=TS3B_N
+Change Component Comment : Designator=C2 Old Comment=Elko New Comment=100n/16V
+Change Component Comment : Designator=C1 Old Comment=Elko New Comment=330n/50V
+Change Component Comment : Designator=C3 Old Comment=Elko New Comment=330n/50V
+Change Component Comment : Designator=A2 Old Comment=LM3940IT-3.3 New Comment=LM3940IS-3.3

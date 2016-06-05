@@ -1,0 +1,16 @@
+Move Component(s) Origin to Grid
+Filename     : C:\Users\Public\Documents\Altium\Projects\Zavrsni\Zavrsni.PcbDoc
+Date         : 31.5.2016.
+Time         : 0:09:37
+Time Elapsed : 00:00:00
+
+
+    Small Component V1-NPN (11mm,7.73mm) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component R1-4K7 (19mm,8.42mm) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component X5-Header 2 (45mm,12mm) on Top Layer - Component pads are OFF grid. No action taken.
+    SIP Component X4-MHDR1X4 (6.54mm,26mm) on Top Layer - Component pads are OFF grid. No action taken.
+    DIP Component X3-MHDR2X5 (47mm,19mm) on Top Layer - Component pads are OFF grid. No action taken.
+    DIP Component X2-MHDR2X13 (41.27mm,21mm) on Top Layer - Component pads are OFF grid. No action taken.
+    DIP Component X1-MHDR2X13 (9.5mm,36.24mm) on Top Layer - Component pads are OFF grid. No action taken.
+    Small Component V2-Diode (27mm,8.42mm) on Top Layer - Component pads are OFF grid. No action taken.
+count : 8
