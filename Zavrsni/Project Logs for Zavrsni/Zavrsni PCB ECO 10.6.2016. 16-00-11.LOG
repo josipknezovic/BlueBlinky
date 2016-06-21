@@ -1,0 +1,6 @@
+Change Component Description : Designator=H3 Old Description=Typical RED GaAs LED New Description=LED crvena
+Change Component Description : Designator=H1 Old Description=Typical RED GaAs LED New Description=LED zelena
+Change Component Description : Designator=H2 Old Description=Typical RED GaAs LED New Description=LED žuta
+Added Component: Designator=A1(TO-220A)
+Added Pin To Net: NetName=GND Pin=A1-1
+Added Pin To Net: NetName=VCC Pin=A1-3

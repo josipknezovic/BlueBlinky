@@ -1,0 +1,4 @@
+Added Component: Designator=A1(T03B)
+Added Pin To Net: NetName=GND Pin=A1-1
+Added Pin To Net: NetName=3V3 Pin=A1-2
+Added Pin To Net: NetName=VCC Pin=A1-3
