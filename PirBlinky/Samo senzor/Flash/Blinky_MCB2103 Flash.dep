@@ -1,0 +1,6 @@
+Dependencies for Project 'Blinky', Target 'MCB2103 Flash': (DO NOT MODIFY !)
+F (.\Startup.s)(0x570F7B84)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I"D:\Program Files\Keil\Keil_v5\ARM\RV31\INC"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\Inc\Philips"--pd "__UVISION_VERSION SETA 521"-o .\flash\startup.o --depend .\flash\startup.d)
+F (.\Blinky.c)(0x58292913)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I"D:\Program Files\Keil\Keil_v5\ARM\RV31\INC"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\Inc\Philips"-D__UVISION_VERSION="521"-o .\flash\blinky.o --depend .\flash\blinky.d)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EA096)
+I (D:\Program Files\Keil\Keil_v5\ARM\Inc\Philips\LPC2103.H)(0x570F7B78)
+F (.\Abstract.txt)(0x570F7B84)()

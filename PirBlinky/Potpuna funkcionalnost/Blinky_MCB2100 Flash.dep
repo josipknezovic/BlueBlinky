@@ -1,0 +1,11 @@
+Dependencies for Project 'Blinky', Target 'MCB2100 Flash': (DO NOT MODIFY !)
+F (.\Startup.s)(0x587F9DF8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --pd "__MICROLIB SETA 1"-I "D:\Program Files\Keil\Keil_V474\ARM\RV31\INC"-I "D:\Program Files\Keil\Keil_V474\ARM\CMSIS\Include"-I "D:\Program Files\Keil\Keil_V474\ARM\Inc\Philips"-o .\flash\startup.o --depend .\flash\startup.d)
+F (.\Retarget.c)(0x570F6D6E)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0-I "D:\Program Files\Keil\Keil_V474\ARM\RV31\INC"-I "D:\Program Files\Keil\Keil_V474\ARM\CMSIS\Include"-I "D:\Program Files\Keil\Keil_V474\ARM\Inc\Philips"-o .\flash\retarget.o --omf_browse .\flash\retarget.crf --depend .\flash\retarget.d)
+I (D:\Program Files\Keil\Keil_V474\ARM\ARMCC\include\rt_misc.h)(0x51C819B4)
+F (.\Time.c)(0x58857B7E)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0-I "D:\Program Files\Keil\Keil_V474\ARM\RV31\INC"-I "D:\Program Files\Keil\Keil_V474\ARM\CMSIS\Include"-I "D:\Program Files\Keil\Keil_V474\ARM\Inc\Philips"-o .\flash\time.o --omf_browse .\flash\time.crf --depend .\flash\time.d)
+I (D:\Program Files\Keil\Keil_V474\ARM\Inc\Philips\LPC21XX.H)(0x532C5448)
+I (Timer.h)(0x58850037)
+F (.\Blinky.c)(0x588535A8)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O0-I "D:\Program Files\Keil\Keil_V474\ARM\RV31\INC"-I "D:\Program Files\Keil\Keil_V474\ARM\CMSIS\Include"-I "D:\Program Files\Keil\Keil_V474\ARM\Inc\Philips"-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (D:\Program Files\Keil\Keil_V474\ARM\Inc\Philips\LPC2103.H)(0x532C5448)
+I (Timer.h)(0x58850037)
+F (.\Abstract.txt)(0x570F6D6E)()
