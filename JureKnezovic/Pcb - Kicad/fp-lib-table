@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name zp2148)(type KiCad)(uri "$(KIPRJMOD)/custom_footprints/zp2148.pretty")(options "")(descr ""))
+  (lib (name three_pins)(type KiCad)(uri "$(KIPRJMOD)/custom_footprints/three_pins.pretty")(options "")(descr ""))
+)

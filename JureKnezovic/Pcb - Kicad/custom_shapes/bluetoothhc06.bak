@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BluetoothHC06
+#
+DEF BluetoothHC06 BT1 0 40 Y Y 1 F N
+F0 "BT1" 150 350 60 H V C CNN
+F1 "BluetoothHC06" 0 -300 60 H V C CNN
+F2 "" 150 350 60 H I C CNN
+F3 "" 150 350 60 H I C CNN
+DRAW
+S -650 300 150 -200 0 1 0 N
+S 700 500 700 500 0 1 0 N
+X Vcc 1 -850 200 200 R 50 50 1 1 O
+X Gnd 2 -850 100 200 R 50 50 1 1 O
+X Txd 3 -850 0 200 R 50 50 1 1 O
+X Rxd 4 -850 -100 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

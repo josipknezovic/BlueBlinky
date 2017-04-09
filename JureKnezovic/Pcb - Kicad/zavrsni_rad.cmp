@@ -1,0 +1,131 @@
+Cmp-Mod V01 Created by PcbNew   date = 09-Apr-17 01:38:24
+
+BeginCmp
+TimeStamp = 58E99511
+Path = /58E87D81
+Reference = BT1;
+ValeurCmp = BluetoothHC06;
+IdModule  = Connectors:Grove_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99517
+Path = /58E8708B
+Reference = C1;
+ValeurCmp = 100uF/16V;
+IdModule  = Capacitors_THT:CP_Radial_D6.3mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E9951D
+Path = /58E870C2
+Reference = C2;
+ValeurCmp = 10uF/16V;
+IdModule  = Capacitors_THT:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99523
+Path = /58E8A563
+Reference = D1;
+ValeurCmp = Dioda;
+IdModule  = Diodes_SMD:D_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99529
+Path = /58E88C4B
+Reference = D2;
+ValeurCmp = Crvena_led;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E9952F
+Path = /58E88F17
+Reference = D3;
+ValeurCmp = Zelena_LED;
+IdModule  = LEDs:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99567
+Path = /58E854DE
+Reference = LPC1;
+ValeurCmp = ZP2148;
+IdModule  = zp2148:ZP2148;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E9956E
+Path = /58E8A5AC
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = three_pins:ThreePinConnector;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99574
+Path = /58E8A4BF
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E9957A
+Path = /58E8A4F4
+Reference = R2;
+ValeurCmp = 68;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99580
+Path = /58E893A9
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99586
+Path = /58E89315
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E9958C
+Path = /58E8AF78
+Reference = Rel1;
+ValeurCmp = Relay;
+IdModule  = three_pins:TwoPinConnector;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99593
+Path = /58E86870
+Reference = S1;
+ValeurCmp = PIRsensor;
+IdModule  = three_pins:ThreePinConnector;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E99599
+Path = /58E990F9
+Reference = U1;
+ValeurCmp = PoE;
+IdModule  = three_pins:TwoPinConnector;
+EndCmp
+
+BeginCmp
+TimeStamp = 58E995A0
+Path = /58E87028
+Reference = U2;
+ValeurCmp = LM1117-3.3V;
+IdModule  = three_pins:ThreePinConnector;
+EndCmp
+
+EndListe
