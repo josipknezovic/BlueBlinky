@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fer.jureknezovic.smartlock.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageButton
+        android:id="@+id/ButtonOpen"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:background="@drawable/circle_default_selector"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/ButtonScan"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginStart="20sp"
+        android:background="@drawable/circle_default_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bluetooth_scan"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/ButtonDisconnect"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/circle_default_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/bluetooth_disable"
+        tools:ignore="ContentDescription" />
+
+    <ProgressBar
+        android:id="@+id/ProgressCircle"
+        android:layout_width="179sp"
+        android:layout_height="179sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+</android.support.constraint.ConstraintLayout>

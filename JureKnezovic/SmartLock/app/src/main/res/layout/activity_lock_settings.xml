@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10sp"
+        android:layout_marginBottom="@dimen/margin_10sp"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_10sp"
+        tools:context="fer.jureknezovic.smartlock.SettingsActivity">
+
+        <Switch
+            android:id="@+id/ledSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/margin_text"
+            android:layout_marginLeft="@dimen/margin_text"
+            android:layout_marginRight="@dimen/margin_text"
+            android:layout_marginStart="@dimen/margin_text"
+            android:checked="true"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/settingsLockLed"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+
+        <Switch
+            android:id="@+id/sensorSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ledSwitch"
+            android:layout_marginEnd="@dimen/margin_text"
+            android:layout_marginLeft="@dimen/margin_text"
+            android:layout_marginRight="@dimen/margin_text"
+            android:layout_marginStart="@dimen/margin_text"
+            android:checked="true"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/settingsLockSensor"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textBeginningWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/sensorSwitch"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/settingsWorkingHours"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/minusSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/shiftEnd"
+            android:layout_alignTop="@id/shiftEnd"
+            android:layout_below="@id/textBeginningWork"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/dash"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+
+        <NumberPicker
+            android:id="@+id/shiftStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textBeginningWork"
+            android:layout_marginEnd="@dimen/margin_30sp"
+            android:layout_marginRight="@dimen/margin_30sp"
+            android:layout_toLeftOf="@+id/minusSign"
+            android:layout_toStartOf="@+id/minusSign" />
+
+        <NumberPicker
+            android:id="@+id/shiftEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textBeginningWork"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_30sp"
+            android:layout_marginStart="@dimen/margin_30sp"
+            android:layout_toRightOf="@id/minusSign"
+            android:layout_toEndOf="@id/minusSign"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/shiftEnd"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/settingsDuration"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+        <NumberPicker
+            android:id="@+id/openDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/buttonApplySettings"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/openDuration"
+            android:layout_margin="@dimen/margin_10sp"
+            android:background="@drawable/circle_apply"
+            app:srcCompat="@drawable/ic_checkmark"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/buttonCancelTime"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/openDuration"
+            android:layout_margin="@dimen/margin_10sp"
+            android:background="@drawable/circle_cancel"
+            app:srcCompat="@drawable/ic_close"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</ScrollView>
+

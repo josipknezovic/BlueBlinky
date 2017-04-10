@@ -1,0 +1,68 @@
+<resources>
+    <!--About author and app-->
+    <string name="app_name">SmartLock</string>
+    <string name="author">Jure Knezović</string>
+    <string name="author_email">jure.knezovic@fer.hr</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--Menu values-->
+    <string name="menuAbout">O aplikaciji</string>
+    <string name="menuReport">Prijavi pogrešku</string>
+    <string name="menuSettings">Postavke</string>
+
+    <!--Settings strings-->
+    <string name="settingsOfLock">Postavke brave</string>
+    <string name="settingsLockLed">LED indikator</string>
+    <string name="settingsLockSensor">Senzor pokreta</string>
+    <string name="settingsPassword">Promijeni lozinku</string>
+    <string name="titleSettingsPassword">Promjena lozinke</string>
+    <string name="settingsHoursStart">Početak radnog vremena</string>
+    <string name="settingsHoursEnd">Kraj radnog vremena</string>
+    <string name="titleActivitySettings">Postavke</string>
+    <string name="titleActivityWorkingHours">Radno vrijeme</string>
+    <string name="settingsWorkingHours">Radno vrijeme</string>
+    <string name="settingsDuration">Trajanje dozvoljenog ulaska</string>
+    <string name="titleActivityDuration">Trajanje dozvoljenog ulaska</string>
+    <string name="settings_saved">Postavke spremljene.</string>
+    <string name="oldPassword">Stara lozinka</string>
+    <string name="defaultPassword">1234</string>
+    <string name="enterNewPassword">Nova lozinka</string>
+    <string name="confirmPassword">Potvrdite lozinku</string>
+    <string name="passwordPutThrough">Promijeni lozinku na bravi</string>
+    <string name="dash">—</string>
+    <string name="passwordsError">Lozinke nisu iste. Pokušajte ponovno.</string>
+    <string name="settings_password_error">Lozinka ne smije biti prazna! Pokušajte ponovno</string>
+
+    <!--Most used strings-->
+    <string name="not_connected">Uređaj nije povezan s bravom!</string>
+    <string name="connection_broken">Veza uspješno prekinuta.</string>
+    <string name="scanning_interrupted">Skeniranje prekinuto.</string>
+    <string name="device_not_connected">Uređaj nije povezan s bravom!</string>
+    <string name="connection_successful">Povezivanje uspješno</string>
+    <string name="connection_failure">Povezivanje neuspješno.</string>
+
+    <!--Preferences strings-->
+    <string name="preferences_name">com.smartlock.preferences</string>
+    <string name="preference_begin_value">preferenceBeginValue</string>
+    <string name="preference_end_value">preferenceEndValue</string>
+    <string name="preference_duration_value">preferenceDurationValue</string>
+    <string name="preference_led">preferenceLed</string>
+    <string name="preference_sensor">preferenceSensor</string>
+    <string name="preference_password">preferencePassword</string>
+    <string name="preference_vibrate">preferenceVibrate</string>
+
+    <!--Control chars for sending-->
+    <string name="controlCharSensor">2</string>
+    <string name="controlCharLed">2</string>
+    <string name="controlCharInputPasswordStart">1</string>
+    <string name="controlCharInputPasswordEnd">6</string>
+    <string name="controlCharNewPasswordStart">1</string>
+    <string name="controlCharNewPasswordEnd">7</string>
+    <string name="controlCharOldPasswordStart">8</string>
+    <string name="controlCharWorkingHours">3</string>
+    <string name="controlCharCurrentCounterHours">3</string>
+    <string name="controlCharMinutes">4</string>
+    <string name="controlCharRootMode">5</string>
+    <string name="controlCharOpenDuration">5</string>
+
+</resources>
